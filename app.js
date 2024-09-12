@@ -32,7 +32,12 @@ campoPesquisa = campoPesquisa.toLowerCase ()
                 <a href=${dado.link} target="_blank">${dado.titulo}</a>
               </h3>
               <p class="descricao-meta">${dado.descricao}.</p>
-              <a href=${dado.link} target="_blank">Mais informações</a>
+              <a href=${dado.link_wp} target="_blank">Mais informações</a>
+              <br/>
+              <a href=${dado.link_video} target="_blank">Video do Atleta </a>
+              <br/>
+              <iframe width="560" height="315" src="${dado.link_video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                 
             </div>
           `; 
         }          
